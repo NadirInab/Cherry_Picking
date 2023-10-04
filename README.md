@@ -1,4 +1,4 @@
-# Cherry_Picking
+<div align="center"> # Cherry_Picking 🍒 </div>
 
 <p> 
 This repo provide an overall view about : ``` git cherry-pick ``` command. 
