@@ -26,15 +26,14 @@ In this case git cherry-pick command helps applying individual commits from one 
 - Sharing features: If you are working on a feature that you want to share with other developers, you can cherry-pick the commits for that feature to their branches.
 For example : A developer is working on a new feature in a development branch. Once the feature is complete and tested, the developer cherry-picks the commits for the feature to the main branch. This allows other developers to start using the new feature immediately.
 ##
+
  - Bug hotfixes 🐞 🔧
  
 When a bug is discovered it is important to deliver a fix to end users as quickly as possible. For an example scenario,say a developer has started work on a new feature. During that new feature development they identify a pre-existing bug. The developer creates an explicit commit patching this bug. This new patch commit can be cherry-picked directly to the main branch to fix the bug before it effects more users.
      
 </div>
 
-#### 
-
-### How to use ```git cherry-pick``` :
+#### How to use ```git cherry-pick``` :
 
 In order to demonstrate how to use git cherry-pick let us assume we have a repository with the following branches: 
 - Main 
@@ -64,35 +63,35 @@ Simply run :
 <img src="https://www.dolthub.com/blog/static/b52e7ebc154750e60a0316184bc9cce0/75609/cherry-pick.png" alt="Image Alt Text">
 </div>
 
-### Now let's check step-by-step a good illustrations of what cherry-pick does — and an animation of these illustrations. src = stack overflow :
+<h4> Now let's check step-by-step a good illustrations of what cherry-pick does — and an animation of these illustrations. src = stack overflow : </h4>
 
-### Before cherry-picking
-
-#### So basically we are going to do a cherry-pick of the commit L from the branch feature .
+###
+<h4> Before cherry-picking </h4> 
+<h4>  So basically we are going to do a cherry-pick of the commit L from the branch feature . </h4>
 
 <div align="center">
 <img src="https://i.stack.imgur.com/x1R6o.jpg" alt="Image Alt Text">
 </div
     
-### Now let's cherry pick the commit L : 
+<h4>  Now let's cherry pick the commit L : </h4> 
 ```git cherry-pick feature~2```
 <div align="center">
 <img src="https://i.stack.imgur.com/H1NDD.jpg" alt="Image Alt Text">
 </div>
 
-### After performing the command our working flow will be as follow :
+<h4>  After performing the command our working flow will be as follow :</h4>
 
 <div align="center">
 <img src="https://i.stack.imgur.com/LpDH8.jpg" alt="Image Alt Text">
 </div>
 
-### Animated :
+<h4> Animated :</h4>
 
 <div align="center">
 <img src="https://i.stack.imgur.com/j2D9C.gif" alt="Image Alt Text">
 </div>
 
-#### PS : 
+<h3>  PS : </h3>
 
 ```md
 The commit L' is from the user's point of view the exact copy of the commit L.
