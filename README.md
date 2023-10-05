@@ -64,26 +64,39 @@ Simply run :
 <img src="https://www.dolthub.com/blog/static/b52e7ebc154750e60a0316184bc9cce0/75609/cherry-pick.png" alt="Image Alt Text">
 </div>
 
-### Here  we are !!: 
+### Now let's check step-by-step a good illustrations of what cherry-pick does — and an animation of these illustrations. src = stack overflow :
+
+### Before cherry-picking
+
+#### So basically we are going to do a cherry-pick of the commit L from the branch feature .
 
 <div align="center">
 <img src="https://i.stack.imgur.com/x1R6o.jpg" alt="Image Alt Text">
-</div>
-
+</div
+    
+### Now let's cherry pick the commit L : 
+```git cherry-pick feature~2```
 <div align="center">
 <img src="https://i.stack.imgur.com/H1NDD.jpg" alt="Image Alt Text">
 </div>
+
+### After performing the command our working flow will be as follow :
 
 <div align="center">
 <img src="https://i.stack.imgur.com/LpDH8.jpg" alt="Image Alt Text">
 </div>
 
+### Animated :
+
 <div align="center">
 <img src="https://i.stack.imgur.com/j2D9C.gif" alt="Image Alt Text">
 </div>
 
+#### PS : 
+
 ```md
-    git cherry-pick
+The commit L' is from the user's point of view the exact copy of the commit L.
+Technically speaking, it's a new, different commit, because L contains a pointer to K as its parent while L' contains a pointer to E .
 ```
 
 ## Execution options of ```git cherry-pick``` : 
